@@ -1,0 +1,68 @@
+PODS:
+  - Alamofire (3.1.3)
+  - AsyncSwift (1.6.4)
+  - HanekeSwift (0.10.0)
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - Neon (0.0.3)
+  - ObjectMapper (1.0.1)
+  - OMGHTTPURLRQ (3.0.2):
+    - OMGHTTPURLRQ/RQ (= 3.0.2)
+  - OMGHTTPURLRQ/FormURLEncode (3.0.2)
+  - OMGHTTPURLRQ/RQ (3.0.2):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.0.2)
+  - PromiseKit (3.0.0):
+    - PromiseKit/Foundation (= 3.0.0)
+    - PromiseKit/QuartzCore (= 3.0.0)
+    - PromiseKit/UIKit (= 3.0.0)
+  - PromiseKit/CorePromise (3.0.0)
+  - PromiseKit/Foundation (3.0.0):
+    - OMGHTTPURLRQ (~> 3.0.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (3.0.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (3.0.0):
+    - PromiseKit/CorePromise
+  - Signals (2.1.0)
+  - Socket.IO-Client-Swift (4.1.2)
+  - SwiftDate (1.2)
+  - SwiftyJSON (2.3.1)
+  - SwiftyTimer (1.2.0)
+  - Toucan (0.4.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - AsyncSwift
+  - HanekeSwift
+  - JSQMessagesViewController
+  - Neon
+  - ObjectMapper
+  - PromiseKit
+  - Signals
+  - Socket.IO-Client-Swift
+  - SwiftDate
+  - SwiftyJSON
+  - SwiftyTimer
+  - Toucan
+
+SPEC CHECKSUMS:
+  Alamofire: 9f93b56389e48def9220dd57d1f44b1927229a5a
+  AsyncSwift: 3c90beed237324f1b57e1f1c414dc5501985d208
+  HanekeSwift: d6f5bdf9dbdbbc09d59623b2c1d533e46463dd4d
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  Neon: 589d3d217d326abe09726bf81add106cff685bf2
+  ObjectMapper: 98524bac0dca46c6b3d5ee02cd410fc700ec6ce2
+  OMGHTTPURLRQ: 8376dc887d76a5a7e2a67881dc788f917a2f437c
+  PromiseKit: 665540a1eb43156446872dcf49ed7dee6ebbe13b
+  Signals: a6114179339fa648120f64bb3acd0472965d45d9
+  Socket.IO-Client-Swift: e9e173cf20d6fa33c1c1c4f6354c7b168259eeb6
+  SwiftDate: 49ebd4efb5f82336cfc2b1d8a6622f47d4b17370
+  SwiftyJSON: 592b53bee5ef3dd9b3bebc6b9cb7ee35426ae8c3
+  SwiftyTimer: 5453593e0aaacfb1611fb6986d257281140913bb
+  Toucan: 3e2319c8fb9c7a2fb9c30f6d4ecdc6b8a2f1c92b
+
+COCOAPODS: 0.39.0

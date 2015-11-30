@@ -1,0 +1,47 @@
+#DrewsList Podfile
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.4'
+
+link_with 'ServerCalls', 'ServerCallsTests'
+
+use_frameworks!
+
+#####################################
+
+# socket libs
+pod 'Socket.IO-Client-Swift'
+
+# http libs
+pod 'Alamofire'
+pod 'ObjectMapper'
+
+# json libs
+pod 'SwiftyJSON'
+
+# service libs
+pod 'SwiftyTimer'
+pod 'SwiftDate'
+pod 'AsyncSwift'
+
+# pubsub libs
+pod 'Signals'
+
+# promise libs
+pod 'PromiseKit'
+
+# UI libs
+pod 'Neon'
+
+# image libs
+pod 'HanekeSwift'
+pod 'Toucan'
+
+#####################################
+# unit testing
+
+target 'ServerCallsTests' do
+
+end
+
+#####################################
